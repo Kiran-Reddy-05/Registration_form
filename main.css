@@ -1,0 +1,30 @@
+/* Sidebar.css */
+.sidebar {
+    height: 100vh; /* Full height */
+    width: 250px; /* Set the width of the sidebar */
+    position: fixed; /* Fix the sidebar position */
+    top: 50pxpx;
+    left: 0;
+    background-color: #322f43; /* Black background color */
+    padding-top: 20px;
+    color: #fff;
+    overflow-y: auto;
+  }
+  
+  .sidebar li {
+    padding: 10px 15px;
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    display: flex;
+    align-items: center;
+  }
+  
+  .sidebar li:hover {
+    background-color: #575757;
+  }
+  
+  .sidebar ul li {
+    margin-right: 5px; /* Space between icon and text */
+  }
+  
