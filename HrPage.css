@@ -1,0 +1,220 @@
+/* main.css */
+
+/* Navbar container */
+.navbar {
+    display: flex;
+    justify-content: space-between; /* Logo on left, logout button on right */
+    align-items: center;
+    background-color: #100f0f;
+    color: white;
+    height: 50px; /* Adjust height as needed */
+    padding: 0 20px; /* Add padding for spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional: Add shadow for depth */
+    position: fixed;
+    width: 100%;
+  }
+  
+
+.navbar-logout {
+    display: flex;
+    align-items: right;
+  }
+  
+  .navbar-logout button {
+    background-color: #ff4d4d;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  .navbar-logout button:hover {
+    background-color: #ff1a1a;
+  }
+  
+  
+  /* Logo container */
+  .logo {
+    display: flex;
+    align-items: center;
+  }
+  
+  /* Logo image */
+  .logo img {
+    height: 10vh; /* Adjust height as needed */
+    width: 10vh;
+    border-radius: 50%;
+    margin-left: 40%;
+    
+  }
+  
+  /* Logout button container*/
+  .logout {
+    display: flex;
+    align-items: center;
+  }
+  
+  .logout button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .logout button:hover {
+    background-color: #0056b3;
+  }
+
+/*Profile-pic*/
+.profile{
+    width: 60%;
+    height: 60%;
+}
+
+.profile img{
+    height: 10%;
+    width: 20%;
+    border-radius: 50%;
+    margin-left: 8%;
+    margin-top: 5%;
+    
+}
+
+.EmployeName h4{
+    margin-top: 0;
+    margin-left: 10%;
+    color: #000000; 
+  }
+
+  .container {
+    display: flex;
+  }
+  
+  .container {
+    display: flex;
+  }
+  
+  .sidebar {
+    position: fixed;
+    top: 50px;
+    left: 0;
+    width: 250px;
+    height: 100%;
+    background-color: #333;
+    color: #fff;
+    transition: transform 0.3s ease;
+    transform: translateX(-100%);
+  }
+  
+  .sidebar.open {
+    transform: translateX(0);
+  }
+  
+  .toggle-btn {
+    position: absolute;
+    top: 10px;
+    left: 250px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+  }
+  
+  .sidebar-nav {
+    margin: 50px 0 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav ul {
+    padding: 0;
+    list-style: none;
+  }
+  
+  .sidebar-nav li {
+    margin: 20px 0;
+    cursor: pointer;
+  }
+  
+  .sidebar-nav li ul {
+    margin-top: 10px;
+    padding-left: 20px;
+  }
+  
+  .sidebar-nav a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .content {
+    margin-left: 260px;
+    padding: 20px;
+  }
+  
+
+/*TaskTable1*/
+
+.employee-table {
+    margin-top: 20px;
+  }
+  
+  .employee-table table {
+    width: 100%;
+    border-collapse: collapse;
+  }
+  
+  .employee-table th, .employee-table td {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+  
+  .employee-table th {
+    background-color: #f2f2f2;
+    text-align: left;
+  }
+  
+  .employee-table button {
+    margin-left: 30px;
+    padding: 5px 10px;
+    background-color: #f44336;
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .employee-table button:hover {
+    background-color: #d32f2f;
+  }
+  
+  
+
+/* Footer.css */
+
+.footer {
+    background-color: #050505;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center; 
+    margin-top: 20px;
+  }
+  
+  .container {
+    max-width: 1200px; 
+    margin: 0 auto;
+  }
+  
+  .container h3 {
+    margin-bottom: 10px;
+  }
+  
+  .container p {
+    margin-bottom: 5px; 
+  }
+  
+  
